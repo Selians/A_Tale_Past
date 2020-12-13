@@ -6,9 +6,9 @@
 	yPos = 150
 	#Inventory HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	invHalign = "RIGHT"
+	invHalign = "MIDDLE"
 	#Toggle on by default
-	byDefault = false
+	byDefault = true
 	#Inventory HUD vertical mode
 	invVert = false
 	#Inventory HUD position (X)
@@ -18,7 +18,7 @@
 	#Allowed Values: TOP, CENTER, BOTTOM
 	invValign = "BOTTOM"
 	#Inventory HUD mini mode
-	invMini = true
+	invMini = false
 
 #Settings for ArmorStatus HUD
 [armorhud]
