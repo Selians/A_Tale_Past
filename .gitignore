@@ -1,7 +1,5 @@
 *.log
-*.log.gz
+*.gz
 logs/
 saves/
 local/
-*.log
-*.gz
