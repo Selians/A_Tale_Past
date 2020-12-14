@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-12-14T17:39:07.3496917Z",
+  "lastPlayed": "2020-12-14T19:59:02.0332346Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -46,7 +46,7 @@
   "name": "Their-Tale-Dev",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-12-14T17:38:29.6612845Z",
+  "lastPreviousMatchUpdate": "2020-12-14T19:19:37.0382245Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.16.4",
@@ -2803,12 +2803,12 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 233019,
@@ -8131,7 +8131,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291737,
@@ -8616,7 +8616,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 351914,
@@ -8864,14 +8864,14 @@
       "addonID": 412082,
       "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
       "installedFile": {
-        "id": 3136093,
-        "displayName": "supplementaries-0.9.9.jar",
-        "fileName": "supplementaries-0.9.9.jar",
-        "fileDate": "2020-12-11T17:02:23.917Z",
-        "fileLength": 886338,
+        "id": 3138522,
+        "displayName": "supplementaries-0.9.10.jar",
+        "fileName": "supplementaries-0.9.10.jar",
+        "fileDate": "2020-12-14T15:14:35.663Z",
+        "fileLength": 917771,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3136/93/supplementaries-0.9.9.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3138/522/supplementaries-0.9.10.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -8879,25 +8879,25 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2295932365,
+            "fingerprint": 1360845275,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "net",
-            "fingerprint": 783059716,
+            "fingerprint": 1091359436,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 2613034835,
+            "fingerprint": 1454543957,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "data",
-            "fingerprint": 2620361839,
+            "fingerprint": 3127704142,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -8914,7 +8914,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2963741719,
+        "packageFingerprint": 3732977976,
         "gameVersion": [
           "1.16.3",
           "Forge",
@@ -8929,16 +8929,16 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "supplementaries-0.9.9.jar"
+        "FileNameOnDisk": "supplementaries-0.9.10.jar"
       },
       "dateInstalled": "2020-12-12T23:11:25.6062901Z",
-      "dateUpdated": "2020-12-12T23:11:25.6092932Z",
-      "dateLastUpdateAttempted": "2020-12-12T23:11:25.6092932Z",
-      "status": 3,
+      "dateUpdated": "2020-12-14T19:54:22.4335774Z",
+      "dateLastUpdateAttempted": "2020-12-14T19:54:22.4335774Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -10568,6 +10568,84 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 252848,
+      "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
+      "installedFile": {
+        "id": 3133521,
+        "displayName": "NaturesCompass-1.16.4-1.8.6.jar",
+        "fileName": "NaturesCompass-1.16.4-1.8.6.jar",
+        "fileDate": "2020-12-08T02:34:24.587Z",
+        "fileLength": 199649,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3133/521/NaturesCompass-1.16.4-1.8.6.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2780618172,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2078098816,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3589911188,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 517707184,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2288265386,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3160842196,
+        "gameVersion": [
+          "Forge",
+          "1.16.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "NaturesCompass-1.16.4-1.8.6.jar"
+      },
+      "dateInstalled": "2020-12-14T19:56:44.4333608Z",
+      "dateUpdated": "2020-12-14T19:56:44.4353611Z",
+      "dateLastUpdateAttempted": "2020-12-14T19:56:44.4353611Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
