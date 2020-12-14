@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-12-13T22:43:37.6168903Z",
+  "lastPlayed": "2020-12-14T17:39:07.3496917Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -46,7 +46,7 @@
   "name": "Their-Tale-Dev",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-12-13T22:21:54.6629508Z",
+  "lastPreviousMatchUpdate": "2020-12-14T17:38:29.6612845Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.16.4",
@@ -1143,7 +1143,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -2796,19 +2796,19 @@
         "isServerPack": false,
         "FileNameOnDisk": "structurize-0.13.96-ALPHA-universal.jar"
       },
-      "dateInstalled": "2020-12-12T23:47:56.0384062Z",
-      "dateUpdated": "2020-12-12T23:47:56.1105604Z",
-      "dateLastUpdateAttempted": "2020-12-12T23:47:56.1105604Z",
+      "dateInstalled": "2020-12-14T17:38:58.0588304Z",
+      "dateUpdated": "2020-12-14T17:38:58.0748454Z",
+      "dateLastUpdateAttempted": "2020-12-14T17:38:58.0748454Z",
       "status": 3,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 233019,
@@ -2951,7 +2951,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -4233,24 +4233,6 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
-    },
-    {
-      "addonID": 224712,
-      "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
-      "installedFile": null,
-      "dateInstalled": "2020-12-14T16:20:45.5843423Z",
-      "dateUpdated": "2020-12-14T16:20:45.6704109Z",
-      "dateLastUpdateAttempted": "2020-12-14T16:20:45.6704109Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
     },
     {
       "addonID": 324973,
@@ -6667,7 +6649,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -7100,102 +7082,6 @@
       "dateInstalled": "2020-12-12T22:20:35.380432Z",
       "dateUpdated": "2020-12-12T22:20:35.3824343Z",
       "dateLastUpdateAttempted": "2020-12-12T22:20:35.3824343Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 267172,
-      "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
-      "installedFile": {
-        "id": 3136117,
-        "displayName": "MineTogether-1.16.4-4.1.6RC3.jar",
-        "fileName": "MineTogether-1.16.4-4.1.6RC3.jar",
-        "fileDate": "2020-12-11T17:33:56.963Z",
-        "fileLength": 3966182,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3136/117/MineTogether-1.16.4-4.1.6RC3.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3547260366,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 1795661798,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1920493636,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1874138550,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 691752389,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "NOTICE",
-            "fingerprint": 579610758,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE.txt",
-            "fingerprint": 220345028,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "module-info.class",
-            "fingerprint": 2798740459,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3058044530,
-        "gameVersion": [
-          "1.16.3",
-          "1.16.4"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2020-09-10T14:44:20.443Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "MineTogether-1.16.4-4.1.6RC3.jar"
-      },
-      "dateInstalled": "2020-12-12T22:43:11.4451145Z",
-      "dateUpdated": "2020-12-12T22:43:11.4511187Z",
-      "dateLastUpdateAttempted": "2020-12-12T22:43:11.4511187Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -8233,10 +8119,10 @@
         "isServerPack": false,
         "FileNameOnDisk": "minecolonies-0.13.437-RELEASE-universal.jar"
       },
-      "dateInstalled": "2020-12-12T22:35:01.0018552Z",
-      "dateUpdated": "2020-12-12T22:35:01.0318826Z",
-      "dateLastUpdateAttempted": "2020-12-12T22:35:01.0318826Z",
-      "status": 5,
+      "dateInstalled": "2020-12-14T17:36:25.8686596Z",
+      "dateUpdated": "2020-12-14T17:36:25.8956845Z",
+      "dateLastUpdateAttempted": "2020-12-14T17:36:25.8956845Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8245,7 +8131,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 291737,
@@ -8725,7 +8611,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
