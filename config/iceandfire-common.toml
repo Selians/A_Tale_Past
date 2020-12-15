@@ -45,7 +45,7 @@
 	#True if ghosts can rarely spawn from brutal PvP deaths.
 	"Ghost Spawn from PvP deaths" = true
 	#Whether or not cyclops can break logs or leaves in their way
-	"Cyclops Griefing" = false
+	"Cyclops Griefing" = true
 	#Disable this to remove easter egg with tinkers installed.
 	Weezer = true
 	#True if dragons can despawn. Note that if this is false there may be SERIOUS lag issues.
@@ -157,7 +157,7 @@
 	"Use Dimension Blacklist" = false
 	#Default deathworm health, this is scaled to the worm's particular size
 	#Range: 1.0 ~ 10000.0
-	"Death Worm Base Health" = 10.0
+	"Death Worm Base Health" = 30.0
 	#Change this to slow down or speed up dragon or amphithere flight.
 	#Range: 0.0 ~ 2.0
 	"Dragon Flight Speed Modifier" = 1.0
@@ -233,7 +233,7 @@
 	"Generate Dragon Cave Chance" = 750
 	#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 	#Range: 0 ~ 2
-	"Dragon Griefing" = 2
+	"Dragon Griefing" = 1
 	#A double check to see if the game can spawn cockatrices. Higher number = lower chance to spawn.
 	#Range: 0 ~ 10000
 	"Cockatrice Spawn Check Chance" = 0
@@ -286,7 +286,7 @@
 	"Amphithere Villager Search Length" = 64
 	#Deathworm spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Death Worm Spawn Weight" = 30
+	"Death Worm Spawn Weight" = 20
 	#Percentage of critical strike that will disarm with easter egg tinkers material.
 	#Range: 0.0 ~ 1.0
 	"Easter Egg Tinkers Tool Disarm chance" = 0.20000000298023224
@@ -352,7 +352,7 @@
 	"Dragon Attack Damage" = 17
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sirens Chance" = 400
+	"Spawn Sirens Chance" = 750
 	#Maximum troll health
 	#Range: 1.0 ~ 10000.0
 	"Troll Max Health" = 50.0
