@@ -19,13 +19,13 @@
 			superRareLootTables = ["minecraft:chests/woodland_mansion", "minecraft:chests/buried_treasure"]
 			#The decimal chance for an artifact to appear in super rare loot tables [0.0-1.0, default: 1.0]
 			#Range: 0.0 ~ 1.0
-			artifactSuperRareLoot = 1.0
+			artifactSuperRareLoot = 0.75
 			#Use this list to prevent specific loot tables from getting super rare loot. 
 			#To do so, enter the full path of the specific loot table.
 			superRareLootTablesBlacklist = []
 			#The decimal chance for a unique item to appear in super rare loot tables instead of a common one [0.0-1.0, default: 0.6]
 			#Range: 0.0 ~ 1.0
-			uniqueItemSuperRareLoot = 1.0
+			uniqueItemSuperRareLoot = 0.5
 
 		#Combat Configuration
 		[item_configuration.armor_durability_multiplier_reference.combat_configuration]
@@ -129,7 +129,7 @@
 [general_mod_configuration]
 	#Enable Weaponsmith, Fletcher, Armorer and Leatherworker Villagers trading Dungeons Gear items. 
 	#If you have other mods messing with the trades of those professions or simply don't want it, disable this feature. [true / false]
-	enableVillagerTrades = true
+	enableVillagerTrades = false
 	#The emerald value for an artifact [0-64, default: 24]
 	#Range: 0 ~ 64
 	artifactValue = 24
