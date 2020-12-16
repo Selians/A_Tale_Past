@@ -37,11 +37,11 @@
 		[item_configuration.armor_durability_multiplier_reference.rare_loot_table_configuration]
 			#The decimal chance for an artifact to appear in rare loot tables [0.0-1.0, default: 0.75]
 			#Range: 0.0 ~ 1.0
-			artifactRareLoot = 1.0
+			artifactRareLoot = 0.9
 			#Add gear from this mod to loot tables considered rare. 
 			#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 			#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-			rareLootTables = ["minecraft:chests/stronghold", "minecraft:chests/underwater_ruin", "minecraft:chests/ruined_portal", "minecraft:chests/end_city_treasure"]
+			rareLootTables = ["minecraft:chests/underwater_ruin", "minecraft:chests/ruined_portal", "minecraft:chests/end_city_treasure", "minecraft:chests/buried_treasure", "dungeoncrawl:chests/treasure_room", "minecraft:chests/stronghold"]
 			#The decimal chance for a unique weapon to appear in rare loot table instead of a common ones [0.0-1.0, default: 0.45]
 			#Range: 0.0 ~ 1.0
 			uniqueItemRareLoot = 0.5
@@ -53,17 +53,17 @@
 		[item_configuration.armor_durability_multiplier_reference.uncommon_loot_table_configuration]
 			#The decimal chance for a unique item to appear in uncommon loot tables instead of a common one [0.0-1.0, default: 0.3]
 			#Range: 0.0 ~ 1.0
-			uniqueItemUncommonLoot = 0.3
+			uniqueItemUncommonLoot = 0.25
 			#Add gear from this mod to loot tables considered uncommon. 
 			#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 			#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-			uncommonLootTables = ["minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/bastion"]
+			uncommonLootTables = ["minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/bastion", "minecraft:chests/buried_treasure", "dungeoncrawl:chests/treasure_room", "minecraft:chests/stronghold"]
 			#Use this list to prevent specific loot tables from getting uncommon loot. 
 			#To do so, enter the full path of the specific loot table.
 			uncommonLootTablesBlacklist = ["minecraft:chests/jungle_temple_dispenser"]
 			#The decimal chance for an artifact to appear in uncommon loot tables [0.0-1.0, default: 0.5]
 			#Range: 0.0 ~ 1.0
-			artifactUncommonLoot = 0.5
+			artifactUncommonLoot = 0.75
 
 		#Common Loot Table Configuration
 		[item_configuration.armor_durability_multiplier_reference.common_loot_table_configuration]
@@ -73,10 +73,10 @@
 			#Add gear from this mod to loot tables considered common. 
 			#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 			#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-			commonLootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/shipwreck", "minecraft:chests/desert_pyramid"]
+			commonLootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/shipwreck", "minecraft:chests/desert_pyramid", "minecraft:chests/buried_treasure", "dungeoncrawl:chests/treasure_room", "minecraft:chests/stronghold"]
 			#The decimal chance for an artifact to appear in common loot tables [0.0-1.0, default: 0.25]
 			#Range: 0.0 ~ 1.0
-			artifactCommonLoot = 0.25
+			artifactCommonLoot = 0.75
 			#Use this list to prevent specific loot tables from getting common loot. 
 			#To do so, enter the full path of the specific loot table.
 			commonLootTablesBlacklist = []
