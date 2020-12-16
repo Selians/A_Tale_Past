@@ -145,7 +145,7 @@
 	enableOverpoweredEnchantmentCombos = false
 	#Enable the mass addition of Dungeons Gear items to various vanilla loot tables by the mod itself. 
 	#If you prefer to write your own loot pools via datapack or simply don't want it, disable this feature. [true / false]
-	enableDungeonsGearLoot = false
+	enableDungeonsGearLoot = true
 	#The emerald value for a unique weapon or armor [0-64, default: 24]
 	#Range: 0 ~ 64
 	uniqueItemValue = 46
