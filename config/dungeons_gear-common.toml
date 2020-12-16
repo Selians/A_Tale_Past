@@ -19,13 +19,13 @@
 			superRareLootTables = ["minecraft:chests/buried_treasure", "dungeoncrawl:chests/treasure_room", "minecraft:chests/stronghold"]
 			#The decimal chance for an artifact to appear in super rare loot tables [0.0-1.0, default: 1.0]
 			#Range: 0.0 ~ 1.0
-			artifactSuperRareLoot = 1
+			artifactSuperRareLoot = 1.0
 			#Use this list to prevent specific loot tables from getting super rare loot. 
 			#To do so, enter the full path of the specific loot table.
 			superRareLootTablesBlacklist = []
 			#The decimal chance for a unique item to appear in super rare loot tables instead of a common one [0.0-1.0, default: 0.6]
 			#Range: 0.0 ~ 1.0
-			uniqueItemSuperRareLoot = 0.5
+			uniqueItemSuperRareLoot = 0.6
 
 		#Combat Configuration
 		[item_configuration.armor_durability_multiplier_reference.combat_configuration]
@@ -37,7 +37,7 @@
 		[item_configuration.armor_durability_multiplier_reference.rare_loot_table_configuration]
 			#The decimal chance for an artifact to appear in rare loot tables [0.0-1.0, default: 0.75]
 			#Range: 0.0 ~ 1.0
-			artifactRareLoot = 0.75
+			artifactRareLoot = 1.0
 			#Add gear from this mod to loot tables considered rare. 
 			#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 			#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
