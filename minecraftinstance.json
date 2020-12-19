@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-12-17T18:43:02.3288167Z",
+  "lastPlayed": "2020-12-19T14:19:00.5391047Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -43,7 +43,7 @@
   "guid": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
   "gameTypeID": 432,
   "installPath": "C:\\Users\\Marce\\Documents\\curseforge\\minecraft\\Instances\\Their-Tale-Dev\\",
-  "name": "Their-Tale-Dev",
+  "name": "A Tale Past",
   "cachedScans": [],
   "isValid": true,
   "lastPreviousMatchUpdate": "2020-12-16T16:38:49.7273204Z",
@@ -265,7 +265,7 @@
       "dateInstalled": "2020-12-12T22:38:49.2686257Z",
       "dateUpdated": "2020-12-12T22:38:49.2716292Z",
       "dateLastUpdateAttempted": "2020-12-12T22:38:49.2716292Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -506,61 +506,95 @@
     {
       "addonID": 358191,
       "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
+      "installedFile": null,
+      "dateInstalled": "2020-12-12T22:37:28.5758179Z",
+      "dateUpdated": "2020-12-12T22:37:28.5788244Z",
+      "dateLastUpdateAttempted": "2020-12-12T22:37:28.5788244Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 378802,
+      "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
       "installedFile": {
-        "id": 3069060,
-        "displayName": "PackMenu-1.16.3-2.3.0.jar",
-        "fileName": "PackMenu-1.16.3-2.3.0.jar",
-        "fileDate": "2020-09-30T14:05:54.067Z",
-        "fileLength": 525885,
+        "id": 3133625,
+        "displayName": "Structure Gel API 1.16.4-v1.7.2",
+        "fileName": "structure-gel-api-1.16.4-1.7.2.jar",
+        "fileDate": "2020-12-08T06:28:58.987Z",
+        "fileLength": 247798,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3069/60/PackMenu-1.16.3-2.3.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3133/625/structure-gel-api-1.16.4-1.7.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 283644,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 881928832,
+            "fingerprint": 2023920733,
             "type": 0,
             "invalidFingerprint": false
           },
           {
-            "foldername": "shadows",
-            "fingerprint": 3354559820,
+            "foldername": "com",
+            "fingerprint": 3800650648,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "asm",
+            "fingerprint": 518878678,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 3392932931,
+            "fingerprint": 2942120461,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 205919636,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 3271828178,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 1879247889,
+            "fingerprint": 3360178793,
             "type": 0,
             "invalidFingerprint": false
           },
           {
-            "foldername": "resources.zip",
-            "fingerprint": 3195187532,
+            "foldername": "structure_gel.mixins.json",
+            "fingerprint": 1445355469,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "structure_gel.refmap.json",
+            "fingerprint": 3383857708,
             "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 4215120023,
+        "packageFingerprint": 2078468792,
         "gameVersion": [
-          "1.16.3",
           "1.16.4"
         ],
         "hasInstallScript": false,
@@ -569,19 +603,19 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
-        "gameVersionDateReleased": "2020-09-10T14:44:20.443Z",
+        "gameVersionDateReleased": "2020-11-02T18:40:51.49Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "PackMenu-1.16.3-2.3.0.jar"
+        "FileNameOnDisk": "structure-gel-api-1.16.4-1.7.2.jar"
       },
-      "dateInstalled": "2020-12-12T22:37:28.5758179Z",
-      "dateUpdated": "2020-12-12T22:37:28.5788244Z",
-      "dateLastUpdateAttempted": "2020-12-12T22:37:28.5788244Z",
-      "status": 5,
+      "dateInstalled": "2020-12-18T19:39:11.3546885Z",
+      "dateUpdated": "2020-12-18T19:39:11.3646979Z",
+      "dateLastUpdateAttempted": "2020-12-18T19:39:11.3646979Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -2402,6 +2436,96 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 377794,
+      "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
+      "installedFile": {
+        "id": 3120061,
+        "displayName": "Dungeons Plus 1.16.4-v1.1.0",
+        "fileName": "dungeons-plus-1.16.4-1.1.0.jar",
+        "fileDate": "2020-11-22T20:34:56.063Z",
+        "fileLength": 368331,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3120/61/dungeons-plus-1.16.4-1.1.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 378802,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3669759851,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2081259529,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 749594403,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1700273652,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 1682880065,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2313474560,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2321212899,
+        "gameVersion": [
+          "1.16.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2020-11-02T18:40:51.49Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "dungeons-plus-1.16.4-1.1.0.jar"
+      },
+      "dateInstalled": "2020-12-18T19:39:11.5348504Z",
+      "dateUpdated": "2020-12-18T19:39:11.5388548Z",
+      "dateLastUpdateAttempted": "2020-12-18T19:39:11.5388548Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -7008,7 +7132,7 @@
       "dateInstalled": "2020-12-12T22:44:54.8229254Z",
       "dateUpdated": "2020-12-12T22:44:54.8259292Z",
       "dateLastUpdateAttempted": "2020-12-12T22:44:54.8259292Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9097,90 +9221,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 347488,
-      "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
-      "installedFile": {
-        "id": 3089925,
-        "displayName": "Valhelsia Structures - 16.0.5",
-        "fileName": "valhelsia_structures-16.0.5.jar",
-        "fileDate": "2020-10-22T20:20:01.663Z",
-        "fileLength": 614759,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge-service.overwolf.wtf/files/3089/925/valhelsia_structures-16.0.5.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 586486504,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 3465010894,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 797319713,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2047044522,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 1285106689,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 4253522632,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1504263528,
-        "gameVersion": [
-          "1.16.3",
-          "1.16.4"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "valhelsia_structures-16.0.5.jar"
-      },
-      "dateInstalled": "2020-12-12T22:40:52.062844Z",
-      "dateUpdated": "2020-12-12T22:40:52.0658469Z",
-      "dateLastUpdateAttempted": "2020-12-12T22:40:52.0658469Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 291788,
       "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
       "installedFile": {
@@ -9272,6 +9312,90 @@
       "installedTargets": null
     },
     {
+      "addonID": 347488,
+      "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
+      "installedFile": {
+        "id": 3089925,
+        "displayName": "Valhelsia Structures - 16.0.5",
+        "fileName": "valhelsia_structures-16.0.5.jar",
+        "fileDate": "2020-10-22T20:20:01.663Z",
+        "fileLength": 614759,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge-service.overwolf.wtf/files/3089/925/valhelsia_structures-16.0.5.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 586486504,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3465010894,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 797319713,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 2047044522,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 1285106689,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4253522632,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1504263528,
+        "gameVersion": [
+          "1.16.3",
+          "1.16.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "valhelsia_structures-16.0.5.jar"
+      },
+      "dateInstalled": "2020-12-12T22:40:52.062844Z",
+      "dateUpdated": "2020-12-12T22:40:52.0658469Z",
+      "dateLastUpdateAttempted": "2020-12-12T22:40:52.0658469Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 362528,
       "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
       "installedFile": {
@@ -9340,7 +9464,7 @@
       "dateInstalled": "2020-12-12T22:41:34.8772262Z",
       "dateUpdated": "2020-12-12T22:41:34.8802197Z",
       "dateLastUpdateAttempted": "2020-12-12T22:41:34.8802197Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11384,6 +11508,98 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 428883,
+      "gameInstanceID": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
+      "installedFile": {
+        "id": 3141778,
+        "displayName": "dungeons_mobs-1.16.4-1.0.1.jar",
+        "fileName": "dungeons_mobs-1.16.4-1.0.1.jar",
+        "fileDate": "2020-12-18T00:52:01.027Z",
+        "fileLength": 841895,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3141/778/dungeons_mobs-1.16.4-1.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 592338888,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2653163404,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dungeons_mobs.mixins.json",
+            "fingerprint": 2413514858,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3380797652,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2683706015,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 127175517,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dungeons_mobs.refmap.json",
+            "fingerprint": 322699999,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2600959777,
+        "gameVersion": [
+          "1.16.3",
+          "Forge",
+          "1.16.4",
+          "1.16.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "dungeons_mobs-1.16.4-1.0.1.jar"
+      },
+      "dateInstalled": "2020-12-18T19:39:23.0846601Z",
+      "dateUpdated": "2020-12-18T19:39:23.0876539Z",
+      "dateLastUpdateAttempted": "2020-12-18T19:39:23.0876539Z",
+      "status": 3,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
