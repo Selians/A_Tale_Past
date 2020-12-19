@@ -42,7 +42,7 @@
   "allocatedMemory": 8083,
   "guid": "81ce4e14-2599-4ff6-980b-0ce74e3a0010",
   "gameTypeID": 432,
-  "installPath": "C:\\Users\\Marce\\Documents\\curseforge\\minecraft\\Instances\\Their-Tale-Dev\\",
+  "installPath": "C:\\Users\\Marce\\Twitch\\Minecraft\\Instances\\A_Tale_Past\\",
   "name": "A Tale Past",
   "cachedScans": [],
   "isValid": true,
@@ -1228,7 +1228,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 298082,
