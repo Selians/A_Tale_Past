@@ -1,1 +1,28 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "thermal:guidebook": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "industrialforegoing:industrial_foregoing": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:getting_started/learning_spells"
+      ],
+      "bookmarks": [],
+      "history": [
+        "ars_nouveau:getting_started/learning_spells"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
