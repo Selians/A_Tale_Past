@@ -7,10 +7,15 @@
 		enabled = true
 
 	[blocks.turn_table]
+		#blocks that can't be rotated. Some special ones like chests, beds and pistons are already hardcoded
+		mobs = ["minecraft:end_portal_frame"]
 		#how many ticks it takes to rotate a block/entity
 		#Range: 1 ~ 256
 		period = 20
+		#can rotate entities standing on it?
+		rotate_entities = true
 
+	#I haven't tested most of the mods included here. let me know if they work
 	[blocks.cage]
 		#catchable mobs
 		cage_mobs = ["minecraft:endermite", "minecraft:slime", "minecraft:parrot", "minecraft:bee", "minecraft:magma_cube", "minecraft:vex", "minecraft:rabbit", "minecraft:cat", "minecraft:chicken", "minecraft:bat", "iceandfire:pixie"]
