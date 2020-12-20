@@ -7,9 +7,15 @@
 		enabled = true
 
 	[blocks.turn_table]
-		#how many ticks it takes to rotate a block/entity
-		#Range: 1 ~ 256
-		period = 20
+		#blocks that can't be rotated. Some special ones like chests, beds and pistons are already hardcoded
+		mobs = ["minecraft:end_portal_frame"]
+		#can rotate entities standing on it?
+		rotate_entities = true
+
+	#I haven't tested most of the mods included here. let me know if they work
+	[blocks.cage]
+		#catchable mobs
+		cage_mobs = ["minecraft:endermite", "minecraft:slime", "minecraft:parrot", "minecraft:bee", "minecraft:magma_cube", "minecraft:vex", "minecraft:rabbit", "minecraft:cat", "minecraft:chicken", "minecraft:bat", "iceandfire:pixie"]
 
 	[blocks.speaker_block]
 		#maximum range
@@ -50,7 +56,9 @@
 		allow_any_item = false
 
 	[blocks.jar]
-		#catchable mobs
+		#catchable mobs 
+		#BE VERY CAREFUL WITH THESE: SOME MOBS MIGHT NOT WORK OF EVEN CRASH THE GAME.
+		#That's due to a vanilla bug. Check in a new world if the mobs you added here work before adding to a modpack
 		mobs = ["minecraft:slime", "minecraft:parrot", "minecraft:bee", "minecraft:magma_cube"]
 		#tinted jar catchable mobs
 		tinted_jar_mobs = ["minecraft:endermite", "minecraft:slime", "minecraft:parrot", "minecraft:bee", "minecraft:magma_cube", "minecraft:vex"]
