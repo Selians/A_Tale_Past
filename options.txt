@@ -101,11 +101,11 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown
-key_key.ftbchunks.map:key.keyboard.m
 key_key.dragon_fireAttack:key.keyboard.r
 key_key.dragon_strike:key.keyboard.keypad.enter
 key_key.dragon_down:key.keyboard.x
 key_key.dragon_change_view:key.keyboard.f7
+key_key.ftbchunks.map:key.keyboard.m
 key_tetra.toolbelt.binding.access:key.keyboard.b
 key_tetra.toolbelt.binding.restock:key.keyboard.b:SHIFT
 key_neat.keybind.toggle:key.keyboard.unknown
@@ -132,11 +132,12 @@ key_key.ars_nouveau.open_book:key.keyboard.unknown
 key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
 key_key.ars_nouveau.next_slot:key.keyboard.x
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_key.inventoryhud.toggle:key.keyboard.i
 key_key.inventoryhud.openconfig:key.keyboard.o
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.back:key.mouse.4
 key_key.refinedstorageaddons.openWirelessCraftingGrid:key.keyboard.g:CONTROL
+key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -155,7 +156,6 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.change_hotbar:key.keyboard.z
 key_mod.chiselsandbits.chiselmode.single:key.keyboard.unknown
@@ -175,6 +175,8 @@ key_mod.chiselsandbits.positivepatternmode.replace:key.keyboard.unknown
 key_mod.chiselsandbits.positivepatternmode.additive:key.keyboard.unknown
 key_mod.chiselsandbits.positivepatternmode.placement:key.keyboard.unknown
 key_mod.chiselsandbits.positivepatternmode.impose:key.keyboard.unknown
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_mod.chiselsandbits.tapemeasure.bit:key.keyboard.unknown
 key_mod.chiselsandbits.tapemeasure.block:key.keyboard.unknown
 key_mod.chiselsandbits.tapemeasure.distance:key.keyboard.unknown
@@ -186,10 +188,8 @@ key_mod.chiselsandbits.other.offgrid:key.keyboard.unknown
 key_mod.chiselsandbits.other.undo:key.keyboard.unknown
 key_mod.chiselsandbits.other.redo:key.keyboard.unknown
 key_mod.chiselsandbits.other.add_to_clipboard:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.k
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.toggleCheatMode:key.keyboard.unknown
@@ -202,7 +202,7 @@ key_key.jei.nextPage:key.keyboard.page.down
 key_key.jei.bookmark:key.keyboard.a
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.8450704
+soundCategory_music:0.0
 soundCategory_record:0.5070422
 soundCategory_weather:1.0
 soundCategory_block:1.0
