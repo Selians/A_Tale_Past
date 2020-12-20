@@ -9,9 +9,6 @@
 	[blocks.turn_table]
 		#blocks that can't be rotated. Some special ones like chests, beds and pistons are already hardcoded
 		mobs = ["minecraft:end_portal_frame"]
-		#how many ticks it takes to rotate a block/entity
-		#Range: 1 ~ 256
-		period = 20
 		#can rotate entities standing on it?
 		rotate_entities = true
 
