@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:conduit"},"title":"Enter The Infernal Regions","description":"A Conduit is required to enter The Infernal Regions"},"parent":"restrictedportals:root","criteria":{"theinfernalregions":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:conduit"}]}}}}
