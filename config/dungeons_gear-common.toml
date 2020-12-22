@@ -19,7 +19,7 @@
 			superRareLootTables = ["minecraft:chests/buried_treasure", "dungeoncrawl:chests/treasure_room", "minecraft:chests/stronghold"]
 			#The decimal chance for an artifact to appear in super rare loot tables [0.0-1.0, default: 1.0]
 			#Range: 0.0 ~ 1.0
-			artifactSuperRareLoot = 0.5
+			artifactSuperRareLoot = 0.4
 			#Use this list to prevent specific loot tables from getting super rare loot. 
 			#To do so, enter the full path of the specific loot table.
 			superRareLootTablesBlacklist = []
@@ -53,7 +53,7 @@
 		[item_configuration.armor_durability_multiplier_reference.uncommon_loot_table_configuration]
 			#The decimal chance for a unique item to appear in uncommon loot tables instead of a common one [0.0-1.0, default: 0.3]
 			#Range: 0.0 ~ 1.0
-			uniqueItemUncommonLoot = 0.2
+			uniqueItemUncommonLoot = 0.15
 			#Add gear from this mod to loot tables considered uncommon. 
 			#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 			#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
@@ -63,20 +63,20 @@
 			uncommonLootTablesBlacklist = ["minecraft:chests/jungle_temple_dispenser"]
 			#The decimal chance for an artifact to appear in uncommon loot tables [0.0-1.0, default: 0.5]
 			#Range: 0.0 ~ 1.0
-			artifactUncommonLoot = 0.65
+			artifactUncommonLoot = 0.25
 
 		#Common Loot Table Configuration
 		[item_configuration.armor_durability_multiplier_reference.common_loot_table_configuration]
 			#The decimal chance for a unique item to appear in common loot tables instead of a common one [0.0-1.0, default: 0.15]
 			#Range: 0.0 ~ 1.0
-			uniqueItemCommonLoot = 0.15
+			uniqueItemCommonLoot = 0.1
 			#Add gear from this mod to loot tables considered common. 
 			#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 			#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
 			commonLootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/shipwreck", "minecraft:chests/desert_pyramid"]
 			#The decimal chance for an artifact to appear in common loot tables [0.0-1.0, default: 0.25]
 			#Range: 0.0 ~ 1.0
-			artifactCommonLoot = 0.65
+			artifactCommonLoot = 0.2
 			#Use this list to prevent specific loot tables from getting common loot. 
 			#To do so, enter the full path of the specific loot table.
 			commonLootTablesBlacklist = []
@@ -93,28 +93,28 @@
 		[item_configuration.armor_durability_multiplier_reference.tool_durability_reference]
 			#Set the durability multiplier for armors that can be classified as medium plate, such as Reinforced Mail. [0-1024, default: 14
 			#Range: 0 ~ 1024
-			mediumArmorDurabilityMultiplier = 15
+			mediumArmorDurabilityMultiplier = 28
 			#Set the durability for melee weapons. [0-1024, default: 250
 			#Range: 0 ~ 1024
 			meleeWeaponDurability = 578
 			#Set the durability for artifacts. [0-1024, default: 64
 			#Range: 0 ~ 1024
-			artifactDurability = 86
+			artifactDurability = 64
 			#Set the durability multiplier for armors that can be classified as light plate, such as Guard's Armor. [0-1024, default: 14
 			#Range: 0 ~ 1024
-			lightArmorDurabilityMultiplier = 26
+			lightArmorDurabilityMultiplier = 27
 			#Set the durability multiplier for armors that can be classified as a robe, such as the Evocation Robe. [0-1024, default: 14
 			#Range: 0 ~ 1024
-			robeArmorDurabilityMultiplier = 16
+			robeArmorDurabilityMultiplier = 18
 			#Set the durability multiplier for armors that are made out of pelts, such as Wolf Armor. [0-1024, default: 14
 			#Range: 0 ~ 1024
-			peltArmorDurabilityMultiplier = 15
+			peltArmorDurabilityMultiplier = 21
 			#Set the durability multiplier for armors that can be classified as heavy plate, such as Mercenary Armor. [0-1024, default: 14
 			#Range: 0 ~ 1024
-			heavyArmorDurabilityMultiplier = 38
+			heavyArmorDurabilityMultiplier = 40
 			#Set the durability multiplier for armors that can be classified as a vest, such as Hunter's Armor. [0-1024, default: 14
 			#Range: 0 ~ 1024
-			vestArmorDurabilityMultiplier = 15
+			vestArmorDurabilityMultiplier = 21
 			#Set the durability for crossbows. [0-1024, default: 326
 			#Range: 0 ~ 1024
 			crossbowDurability = 488
@@ -123,7 +123,7 @@
 			bowDurability = 569
 			#Set the durability multiplier for armors that are made out of bones, such as Grim Armor. [0-1024, default: 14
 			#Range: 0 ~ 1024
-			boneArmorDurabilityMultiplier = 19
+			boneArmorDurabilityMultiplier = 24
 
 #General Mod Configuration
 [general_mod_configuration]
@@ -132,7 +132,7 @@
 	enableVillagerTrades = false
 	#The emerald value for an artifact [0-64, default: 24]
 	#Range: 0 ~ 64
-	artifactValue = 64
+	artifactValue = 28
 	#Enable applying enchantments from this mod on non-Dungeons gear using the Enchanting Table. 
 	#If you don't want your enchantments to become too cluttered for non-Dungeons gear, or simply don't like it, disable this feature. 
 	#You can still use the anvil to put the enchantments onto them and have them work correctly. [true / false]

@@ -1,7 +1,7 @@
 
 [General]
 	#allowed mod biomes where the mobs can spawn, by ID like: minecraft, biomesoplenty, etc.
-	modIDs = ["minecraft"]
+	modIDs = ["minecraft", "byg"]
 
 ["Atrophysto spawn parameters"]
 	#Range: 0 ~ 32
@@ -13,13 +13,13 @@
 	atrophystoMaxGroupSize = 1
 
 ["Cursed Skull spawn parameters"]
-	cursedSkullBiomeDictionaries = ["OVERWORLD"]
+	cursedSkullBiomeDictionaries = ["OVERWORLD", "NETHER"]
 	#Range: 0 ~ 32
 	cursedSkullMinGroupSize = 1
 	#Range: 0 ~ 32
-	cursedSkullMaxGroupSize = 1
+	cursedSkullMaxGroupSize = 4
 	#Range: 0 ~ 500
-	cursedSkullWeight = 0
+	cursedSkullWeight = 15
 
 ["Grand Rammer spawn parameters"]
 	#Range: 0 ~ 500
@@ -37,7 +37,7 @@
 	ghoulMinGroupSize = 4
 	#Range: 0 ~ 500
 	ghoulWeight = 40
-	ghoulBiomeDictionaries = ["OVERWORLD","NETHER"]
+	ghoulBiomeDictionaries = ["OVERWORLD", "NETHER"]
 
 ["Ice Elemental spawn parameters"]
 	#Range: 0 ~ 32
@@ -122,11 +122,11 @@
 
 ["Sporer spawn parameters"]
 	#Range: 0 ~ 32
-	sporerMaxGroupSize = 1
-	sporerBiomeDictionaries = ["OVERWORLD"]
+	sporerMaxGroupSize = 4
+	sporerBiomeDictionaries = ["OVERWORLD", "END"]
 	#sporer only spawns when it's raining
 	#Range: 0 ~ 32
 	sporerMinGroupSize = 1
 	#Range: 0 ~ 500
-	sporerWeight = 0
+	sporerWeight = 6
 
