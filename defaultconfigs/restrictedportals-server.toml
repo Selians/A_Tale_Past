@@ -3,15 +3,15 @@
 	#Prevents Death by Teleporting Player to Spawn if trying to enter an Ender Portal
 	preventdeath = true
 	#Message that displays when Teleport is blocked
-	blockedmessage = "%dim% demand a sacrifice... Obtain %item% before entering..."
+	blockedmessage = "Prove your worth. Obtain a &item% before entering %dim%"
 	#Title for the Advancements
-	craftedmessage = "Enter %dim%"
+	craftedmessage = "Evaporation"
 	#Description for the Advancements
-	description = "A %item% is required to enter %dim%"
+	description = "Obtain a %item% to enter %dim%"
 	#Comma seperated list of items that when crafted unlock the corresponding dimension
-	craftitems = "minecraft:conduit"
+	craftitems = "minecraft:trident"
 	#Comma seperated list of Dimension Resource Names
 	dimresname = "minecraft:the_nether"
 	#Comma seperated list of Dimension Display Names
-	dimnames = "The Infernal Regions"
+	dimnames = "the Nether Regions"
 

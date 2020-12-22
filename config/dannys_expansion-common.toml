@@ -32,19 +32,19 @@
 
 ["Ghoul spawn parameters"]
 	#Range: 0 ~ 32
-	ghoulMaxGroupSize = 1
+	ghoulMaxGroupSize = 7
 	#Range: 0 ~ 32
-	ghoulMinGroupSize = 1
+	ghoulMinGroupSize = 4
 	#Range: 0 ~ 500
-	ghoulWeight = 0
-	ghoulBiomeDictionaries = ["OVERWORLD"]
+	ghoulWeight = 40
+	ghoulBiomeDictionaries = ["OVERWORLD","NETHER"]
 
 ["Ice Elemental spawn parameters"]
 	#Range: 0 ~ 32
 	iceElementalMaxGroupSize = 1
 	iceElementalBiomeDictionaries = ["SNOWY"]
 	#Range: 0 ~ 500
-	iceElementalWeight = 0
+	iceElementalWeight = 10
 	#Range: 0 ~ 32
 	iceElementalMinGroupSize = 1
 
@@ -72,7 +72,7 @@
 	#Range: 0 ~ 32
 	manhunterMaxGroupSize = 1
 	#Range: 0 ~ 500
-	manhunterWeight = 0
+	manhunterWeight = 8
 	manhunterBiomeDictionaries = ["OVERWORLD"]
 
 ["Mummy spawn parameters"]
@@ -104,12 +104,12 @@
 
 ["Possessed Armor spawn parameters"]
 	#Range: 0 ~ 500
-	possessedArmorWeight = 0
+	possessedArmorWeight = 20
 	#Range: 0 ~ 32
 	possessedArmorMinGroupSize = 1
 	possessedArmorBiomeDictionaries = ["OVERWORLD"]
 	#Range: 0 ~ 32
-	possessedArmorMaxGroupSize = 1
+	possessedArmorMaxGroupSize = 3
 
 ["Rammer spawn parameters"]
 	#Range: 0 ~ 32
