@@ -14,6 +14,10 @@
 		#Range: 0.0 ~ 100.0
 		speed = 2.0
 
+	[blocks.clock_block]
+		#display 24h time format. False for 12h format
+		24h_format = true
+
 	[blocks.firefly_jar]
 		#particle spawn if this equation is true: time%period==0 and randomfloat>chance  where random float is a random number between 0.0 and 1.0
 		#how often they try to spawn
@@ -34,6 +38,10 @@
 		#how much the wave amplitude increases each pixel
 		#Range: 0.0 ~ 10.0
 		amplitude_increment = 0.3
+
+	[blocks.globe]
+		#enable a random globe texture for each world
+		random_world = true
 
 	[blocks.wind_vane]
 		#this should be kept period_1/3 for a symmetric animation
