@@ -1,7 +1,7 @@
 
 [General]
 	#allowed mod biomes where the mobs can spawn, by ID like: minecraft, biomesoplenty, etc.
-	modIDs = ["minecraft", "byg"]
+	modIDs = ["minecraft"]
 
 ["Atrophysto spawn parameters"]
 	#Range: 0 ~ 32
