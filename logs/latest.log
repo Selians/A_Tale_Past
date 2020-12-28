@@ -4213,3 +4213,5 @@ Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL:
 [14:05:40] [Render thread/ERROR]: Feature: Not a JSON object: "minecraft:freeze_top_layer"
 [14:05:40] [Render thread/INFO]: [com.github.alexthe666.alexsmobs.world.AMWorldRegistry:onBiomesLoad:49]: mosco: minecraft:crimson_forest
 [14:05:40] [Render thread/INFO]: [com.github.alexthe666.alexsmobs.world.AMWorldRegistry:onBiomesLoad:49]: mosco: minecraft:crimson_forest
+[14:24:19] [Netty Client IO #0/INFO]: Client has mods that are missing on server: [bettertitlescreen, clienttweaks, inventoryhud, appleskin]
+[14:24:23] [Render thread/INFO]: Stopping!
