@@ -64,7 +64,7 @@ rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:true
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 syncChunkWrites:true
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
@@ -106,7 +106,7 @@ key_Toggle Customization Overlay | CTRL + :key.keyboard.c
 key_tetra.toolbelt.binding.access:key.keyboard.b
 key_tetra.toolbelt.binding.restock:key.keyboard.b:SHIFT
 key_neat.keybind.toggle:key.keyboard.unknown
-key_key.treechop.toggle_chopping:key.keyboard.n
+key_key.treechop.toggle_chopping:key.keyboard.keypad.9
 key_key.treechop.toggle_felling:key.keyboard.unknown
 key_key.treechop.cycle_sneak_behavior:key.keyboard.unknown
 key_Start composing:key.keyboard.keypad.6
@@ -114,8 +114,8 @@ key_Tool Menu (Hold):key.keyboard.left.alt
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
-key_key.curios.open.desc:key.keyboard.g
 key_key.botania_corporea_request:key.keyboard.c
+key_key.curios.open.desc:key.keyboard.g
 key_key.enderRing:key.keyboard.i
 key_key.spellstoneAbility:key.keyboard.k
 key_key.xpScroll:key.keyboard.j
@@ -130,8 +130,9 @@ key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
 key_key.ars_nouveau.next_slot:key.keyboard.x
 key_key.cofh.mode_change_increment:key.keyboard.v
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.back:key.mouse.4
+key_key.inventoryhud.toggle:key.keyboard.i
+key_key.inventoryhud.openconfig:key.keyboard.o
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -150,16 +151,15 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_key.inventoryhud.toggle:key.keyboard.i
-key_key.inventoryhud.openconfig:key.keyboard.o
-key_quark.keybind.back:key.mouse.4
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.z
-key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_quark.keybind.camera_mode:key.keyboard.f12
-key_quark.keybind.lock_rotation:key.keyboard.k
 key_mod.chiselsandbits.chiselmode.single:key.keyboard.unknown
 key_mod.chiselsandbits.chiselmode.snap2:key.keyboard.unknown
 key_mod.chiselsandbits.chiselmode.snap4:key.keyboard.unknown
@@ -215,7 +215,7 @@ key_key.jei.nextPage:key.keyboard.page.down
 key_key.jei.bookmark:key.keyboard.a
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:0.58215964
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
