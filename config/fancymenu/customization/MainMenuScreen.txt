@@ -1,0 +1,204 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/customguis/background.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-centered
+  x = -90
+  action = movebutton
+  y = 220
+}
+
+customization {
+  identifier = %id=400382%
+  width = 180
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = Options
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/buttondown180x30.png
+  backgroundnormal = config/fancymenu/customguis/button180x30.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-centered
+  x = -90
+  action = movebutton
+  y = 260
+}
+
+customization {
+  identifier = %id=502382%
+  width = 180
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = Quit
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/buttondown180x30.png
+  backgroundnormal = config/fancymenu/customguis/button180x30.png
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-centered
+  x = -90
+  action = movebutton
+  y = 140
+}
+
+customization {
+  identifier = %id=400322%
+  width = 180
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = Online Adventure
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/buttondown180x30.png
+  backgroundnormal = config/fancymenu/customguis/button180x30.png
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-centered
+  x = -90
+  action = movebutton
+  y = 180
+}
+
+customization {
+  identifier = %id=400298%
+  width = 180
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = Solo Adventure
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/buttondown180x30.png
+  backgroundnormal = config/fancymenu/customguis/button180x30.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-left
+  buttonaction = openlink
+  x = 3
+  width = 90
+  action = addbutton
+  y = -33
+  backgroundhovered = config/fancymenu/customguis/buttonunderlined90x30.png
+  label = Discord
+  backgroundnormal = config/fancymenu/customguis/button90x30.png
+  value = https://discord.gg/2s29BHe6g9
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/customguis/logo.png
+  orientation = top-centered
+  x = -140
+  width = 280
+  action = addtexture
+  y = 40
+  height = 53
+}
+
+customization {
+  orientation = bottom-left
+  hoverlabel = 
+  buttonaction = openlink
+  x = 95
+  width = 90
+  action = addbutton
+  y = -33
+  backgroundhovered = config/fancymenu/customguis/buttonunderlined90x30.png
+  label = Website
+  backgroundnormal = config/fancymenu/customguis/button90x30.png
+  value = 
+  height = 30
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  centered = false
+  x = 85
+  action = addtext
+  y = 95
+  scale = 1.0
+  value = Alpha Build
+}
+
