@@ -1,16 +1,9 @@
 
 [General]
-	#allowed mod biomes where the mobs can spawn, by ID like: minecraft, biomesoplenty, etc.
+	#Sporers should only spawn in rain?
+	sporerOnlySpawnInRain = true
+	#Allowed mod biomes where the mobs can spawn, by ID like: minecraft, biomesoplenty, etc.
 	modIDs = ["minecraft"]
-
-["Atrophysto spawn parameters"]
-	#Range: 0 ~ 32
-	atrophystoMinGroupSize = 1
-	atrophystoBiomeDictionaries = ["NETHER"]
-	#Range: 0 ~ 500
-	atrophystoWeight = 0
-	#Range: 0 ~ 32
-	atrophystoMaxGroupSize = 1
 
 ["Cursed Skull spawn parameters"]
 	cursedSkullBiomeDictionaries = ["OVERWORLD", "NETHER"]
@@ -129,4 +122,22 @@
 	sporerMinGroupSize = 1
 	#Range: 0 ~ 500
 	sporerWeight = 6
+
+["Ender Beast spawn parameters"]
+	#Range: 0 ~ 32
+	enderBeastMinGroupSize = 1
+	#Range: 0 ~ 32
+	enderBeastMaxGroupSize = 1
+	#Range: 0 ~ 500
+	enderBeastWeight = 0
+	enderBeastBiomeDictionaries = ["END"]
+
+["Magma Gulper spawn parameters"]
+	#Range: 0 ~ 32
+	magmaGulperMinGroupSize = 1
+	#Range: 0 ~ 32
+	magmaGulperMaxGroupSize = 1
+	#Range: 0 ~ 500
+	magmaGulperWeight = 0
+	magmaGulperBiomeDictionaries = ["NETHER"]
 

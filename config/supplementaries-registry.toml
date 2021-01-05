@@ -12,6 +12,7 @@
 		speaker_block = true
 		#WIP
 		flag = true
+		sack = true
 		bellows = true
 		notice_board = true
 		hanging_sign = true
@@ -21,6 +22,7 @@
 		laser = true
 		planter = true
 		wind_vane = true
+		hourglass = true
 		jar = true
 		sconce_ender = true
 		item_shelf = true
@@ -35,4 +37,8 @@
 		sconce_lever = true
 		candelabra_silver = true
 		sign_post = true
+
+[general]
+	#enable creative tab
+	creative_tab = false
 
