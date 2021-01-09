@@ -56,6 +56,10 @@
 	#Minimum spawn group size of Iceologers in the biomes they can spawn in. [default:1]
 	#Range: 0 ~ 128
 	iceologerMinGroupSize = 1
+	#Add biome types that the Skeleton Vanguard can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	skeletonVanguardBiomeTypes = ["SANDY", "!MUSHROOM", "!NETHER", "!END"]
 	#Add biome types that the Wraith can spawn in. 
 	#Put a "!" before the type to prevent spawning in that biome type. 
 	#Leave this blank if you don't want them to spawn at all.
@@ -115,6 +119,9 @@
 	#Put a "!" before the type to prevent spawning in that biome type. 
 	#Leave this blank if you don't want them to spawn at all.
 	pillagerBiomeTypes = ["SPOOKY", "!MUSHROOM", "!NETHER", "!END"]
+	#Spawn weight of Skeleton Vanguards in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	skeletonVanguardSpawnWeight = 5
 	#Minimum spawn group size of Evokers in the biomes they can spawn in. [default:1]
 	#Range: 0 ~ 128
 	evokerMinGroupSize = 1
@@ -183,6 +190,9 @@
 	#Spawn weight of Pillagers in the biomes they can spawn in. [default:5]
 	#Range: 0 ~ 1024
 	pillagerSpawnWeight = 5
+	#Minimum spawn group size of Skeleton Vanguards in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	skeletonVanguardMinGroupSize = 1
 	#Spawn weight of Necromancers in the biomes they can spawn in. [default:5]
 	#Range: 0 ~ 1024
 	necromancerSpawnWeight = 5
@@ -221,6 +231,9 @@
 	#Enable Armored Skeletons replacing 10% of Skeleton spawns in the biomes they can spawn in. 
 	#If you prefer to not have them do this, disable this feature. [true / false]
 	enableArmoredSkeletonReplacesSkeleton = true
+	#Maximum spawn group size of Skeleton Vanguards in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	skeletonVanguardMaxGroupSize = 1
 	#Spawn weight of Skeleton Horsemen in the biomes they can spawn in. [default:1]
 	#Range: 0 ~ 1024
 	skeletonHorsemanSpawnWeight = 1

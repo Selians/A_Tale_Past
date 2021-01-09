@@ -5,4 +5,6 @@ fellingEnabled = true
 #Default setting for the effect that sneaking has on chopping (can be cycled in-game)
 #Allowed Values: NONE, INVERT_CHOPPING, INVERT_FELLING
 sneakBehavior = "INVERT_CHOPPING"
+#Whether to ignore trees without connected leaves
+onlyBreakTreesWithLeaves = false
 
