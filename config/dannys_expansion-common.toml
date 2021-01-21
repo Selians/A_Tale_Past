@@ -133,11 +133,11 @@
 	enderBeastBiomeDictionaries = ["END"]
 
 ["Magma Gulper spawn parameters"]
-	#Range: 0 ~ 32
-	magmaGulperMinGroupSize = 1
-	#Range: 0 ~ 32
-	magmaGulperMaxGroupSize = 1
 	#Range: 0 ~ 500
 	magmaGulperWeight = 0
 	magmaGulperBiomeDictionaries = ["NETHER"]
+	#Range: 0 ~ 32
+	magmaGulperMaxGroupSize = 1
+	#Range: 0 ~ 32
+	magmaGulperMinGroupSize = 1
 
