@@ -48,6 +48,13 @@
 		#Performance related client configuration.
 		[client.client.performance]
 
+			[client.client.performance.models]
+
+				[client.client.performance.models.cache]
+					#mod.chiselsandbits.config.client.performance.models.cache.size.comment
+					#Range: 0 ~ 2000
+					size = 2000
+
 			[client.client.performance.bit-storage]
 
 				[client.client.performance.bit-storage.contents]

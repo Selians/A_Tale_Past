@@ -10,9 +10,9 @@
 	#Range: 0 ~ 32
 	cursedSkullMinGroupSize = 1
 	#Range: 0 ~ 32
-	cursedSkullMaxGroupSize = 4
+	cursedSkullMaxGroupSize = 2
 	#Range: 0 ~ 500
-	cursedSkullWeight = 15
+	cursedSkullWeight = 3
 
 ["Grand Rammer spawn parameters"]
 	#Range: 0 ~ 500
@@ -25,12 +25,12 @@
 
 ["Ghoul spawn parameters"]
 	#Range: 0 ~ 32
-	ghoulMaxGroupSize = 7
+	ghoulMaxGroupSize = 3
 	#Range: 0 ~ 32
-	ghoulMinGroupSize = 4
+	ghoulMinGroupSize = 1
 	#Range: 0 ~ 500
-	ghoulWeight = 40
-	ghoulBiomeDictionaries = ["OVERWORLD", "NETHER"]
+	ghoulWeight = 10
+	ghoulBiomeDictionaries = ["OVERWORLD"]
 
 ["Ice Elemental spawn parameters"]
 	#Range: 0 ~ 32

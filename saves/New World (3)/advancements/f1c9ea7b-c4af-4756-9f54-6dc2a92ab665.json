@@ -1,0 +1,125 @@
+{
+  "enigmaticlegacy:recipes/generic/the_acknowledgment": {
+    "criteria": {
+      "has_iron_ingot": "2020-12-22 21:53:24 +0100"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2020-12-22 21:53:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2020-12-22 21:56:01 +0100"
+    },
+    "done": true
+  },
+  "restrictedportals:root": {
+    "criteria": {
+      "root": "2020-12-22 21:53:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2020-12-22 21:56:01 +0100"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2020-12-22 21:53:24 +0100"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/cursed_ring": {
+    "criteria": {
+      "has_items": "2020-12-22 21:53:24 +0100"
+    },
+    "done": true
+  },
+  "dungeons_plus:adventure/find_warped_garden": {
+    "criteria": {
+      "structure": "2020-12-22 22:03:33 +0100"
+    },
+    "done": true
+  },
+  "mysticalworld:root": {
+    "criteria": {
+      "auto": "2020-12-22 21:53:24 +0100"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/root": {
+    "criteria": {
+      "flower": "2020-12-22 21:53:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2020-12-22 21:56:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2020-12-22 21:56:01 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "game_start": "2020-12-22 21:53:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2020-12-22 21:56:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2020-12-22 21:56:01 +0100"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/enigmatic_amulet": {
+    "criteria": {
+      "has_items": "2020-12-22 21:53:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle_edge": "2020-12-22 21:55:47 +0100",
+      "minecraft:forest": "2020-12-22 21:54:38 +0100",
+      "minecraft:mountains": "2020-12-22 21:57:10 +0100",
+      "minecraft:taiga": "2020-12-22 21:58:43 +0100",
+      "minecraft:taiga_hills": "2020-12-22 21:58:46 +0100",
+      "minecraft:desert": "2020-12-22 21:54:08 +0100",
+      "minecraft:jungle": "2020-12-22 21:55:48 +0100",
+      "minecraft:birch_forest": "2020-12-22 21:57:36 +0100",
+      "minecraft:jungle_hills": "2020-12-22 21:55:55 +0100",
+      "minecraft:bamboo_jungle": "2020-12-22 21:57:07 +0100",
+      "minecraft:warm_ocean": "2020-12-22 22:00:33 +0100",
+      "minecraft:deep_lukewarm_ocean": "2020-12-22 22:04:23 +0100",
+      "minecraft:beach": "2020-12-22 21:54:26 +0100",
+      "minecraft:river": "2020-12-22 21:57:04 +0100",
+      "minecraft:lukewarm_ocean": "2020-12-22 22:00:26 +0100",
+      "minecraft:wooded_mountains": "2020-12-22 21:59:20 +0100",
+      "minecraft:bamboo_jungle_hills": "2020-12-22 21:57:09 +0100",
+      "minecraft:stone_shore": "2020-12-22 22:02:19 +0100",
+      "minecraft:mushroom_field_shore": "2020-12-22 21:55:07 +0100",
+      "minecraft:savanna": "2020-12-22 21:54:00 +0100",
+      "minecraft:plains": "2020-12-22 21:53:24 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2584
+}
