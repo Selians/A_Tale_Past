@@ -117,8 +117,6 @@
 	amplify = true
 	#Phantom enabled?
 	phantom_block = true
-	#Fell enabled?
-	fell = true
 	#Extend Time enabled?
 	extend_time = true
 	#Heal enabled?
@@ -339,9 +337,6 @@
 	#AOE cost
 	#Range: > -2147483648
 	aoe_cost = 35
-	#Fell cost
-	#Range: > -2147483648
-	fell_cost = 150
 
 #Starting Spells
 ["Starter Spells"]

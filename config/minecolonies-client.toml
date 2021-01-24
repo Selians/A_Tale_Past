@@ -1,7 +1,7 @@
 
 #All configuration items related to the core gameplay
 [gameplay]
-	#minecolonies.config.citizenvoices.comment [Default: true]
+	#minecolonies.config.citizenvoices.comment
 	citizenvoices = true
 
 #All configurations related to pathfinding

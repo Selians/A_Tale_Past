@@ -37,9 +37,6 @@
 
 #Better Weather Settings
 [Season_Settings]
-	#Use seasons?
-	#Default: true
-	Seasons = true
 	#The length of each season in ticks. 24000 is a single minecraft day!
 	#Default: 240000(10 Minecraft days)
 	#Range: > 24000
