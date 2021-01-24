@@ -14,7 +14,7 @@ reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -100,11 +100,15 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+<<<<<<< HEAD
 key_key.ftbchunks.map:key.keyboard.m
 key_Reload Menu | CTRL + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + :key.keyboard.c
+=======
+>>>>>>> experimental
 key_tetra.toolbelt.binding.access:key.keyboard.b
 key_tetra.toolbelt.binding.restock:key.keyboard.b:SHIFT
+key_tetra.toolbelt.binding.open:key.keyboard.b:ALT
 key_neat.keybind.toggle:key.keyboard.unknown
 key_key.treechop.toggle_chopping:key.keyboard.keypad.9
 key_key.treechop.toggle_felling:key.keyboard.unknown
@@ -130,9 +134,26 @@ key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
 key_key.ars_nouveau.next_slot:key.keyboard.x
 key_key.cofh.mode_change_increment:key.keyboard.v
+<<<<<<< HEAD
 key_quark.keybind.back:key.mouse.4
 key_key.inventoryhud.toggle:key.keyboard.i
 key_key.inventoryhud.openconfig:key.keyboard.o
+=======
+key_quark.keybind.change_hotbar:key.keyboard.z
+key_key.inventoryhud.toggle:key.keyboard.i
+key_key.inventoryhud.openconfig:key.keyboard.o
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.autorun:key.keyboard.caps.lock
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_cos.key.opencosarmorinventory:key.keyboard.unknown
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+>>>>>>> experimental
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -151,6 +172,7 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+<<<<<<< HEAD
 key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.change_hotbar:key.keyboard.z
@@ -160,6 +182,8 @@ key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
+=======
+>>>>>>> experimental
 key_mod.chiselsandbits.chiselmode.single:key.keyboard.unknown
 key_mod.chiselsandbits.chiselmode.snap2:key.keyboard.unknown
 key_mod.chiselsandbits.chiselmode.snap4:key.keyboard.unknown
@@ -188,6 +212,7 @@ key_mod.chiselsandbits.other.offgrid:key.keyboard.unknown
 key_mod.chiselsandbits.other.undo:key.keyboard.unknown
 key_mod.chiselsandbits.other.redo:key.keyboard.unknown
 key_mod.chiselsandbits.other.add_to_clipboard:key.keyboard.unknown
+key_key.dannys_expansion.mount_ability:key.keyboard.g
 key_key.craftingtweaks.rotate:key.keyboard.unknown
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
 key_key.craftingtweaks.balance:key.keyboard.unknown
