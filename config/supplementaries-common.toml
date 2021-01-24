@@ -80,6 +80,8 @@
 		#allow right click to instantly eat or drink food or potions inside a jar.
 		#Disable if you think this ability is op. Cookies are excluded
 		drink_from_jar = true
+		#any item can work here, ideally you should only put cookies and alike
+		cookies = ["minecraft:cookie", "farmersdelight:honey_cookie", "farmersdelight:sweet_berry_cookie", "farmersdelight:peanut_butter_cookie", "pamhc2crops:beanitem", "pamhc2crops:chickpeaitem", "cookielicious:strawberry_cookie", "cookielicious:vanilla_cookie", "cookielicious:sandwich_cookie", "pamhc2crops:garlicitem", "pamhc2crops:jicamaitem", "pamhc2crops:roastedmushroomitem", "pamhc2crops:bakedwaterchestnutitem", "pamhc2crops:waterchestnutitem", "pamhc2crops:chocolatemuffinitem", "pamhc2crops:donutitem", "pamhc2crops:chocolatedonutitem", "pamhc2crops:jellydonutitem", "pamhc2crops:crackeritem", "pamhc2crops:pretzelitem", "pamhc2crops:chocolatebaritem", "pamhc2crops:chocolaterollitem", "pamhc2crops:chocolatecaramelfudgeitem", "pamhc2crops:smoresitem", "pamhc2crops:trailmixitem", "pamhc2crops:candiedpecansitem", "pamhc2crops:candiedsweetpotatoesitem", "pamhc2crops:candiedwalnutsitem", "pamhc2crops:chocolateorangeitem", "pamhc2crops:chocolatepeanutbaritem", "pamhc2crops:chocolatestrawberryitem", "pamhc2crops:peanutbuttercupitem", "pamhc2crops:pralinesitem", "pamhc2crops:pinenutitem", "pamhc2crops:roastedalmonditem", "pamhc2crops:roastedpinenutitem"]
 		#jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
@@ -133,6 +135,16 @@
 		whitelist = ["biomesoplenty:mud_brick", "byg:yellow_nether_brick", "byg:blue_nether_brick"]
 		#throw bricks at your foes! Might glass blocks
 		enabled = true
+
+	[tweaks.hanging_flower_pots]
+		#allows you to place hanging flower pots. Works with any modded pot too
+		enabled = true
+
+	[tweaks.cake_tweaks]
+		#allows you to place a cake ontop of another
+		double_cake = true
+		#replaces normal cake placement with a directional one
+		directional_cake = true
 
 	[tweaks.bells_tweaks]
 		#ring a bell by clicking on a chain that's connected to it
