@@ -21,8 +21,6 @@
 		#maximum range
 		#Range: 0 ~ 256
 		range = 64
-		#additional blocks besides fences that can accept a sign post
-		whitelist = ["quark:oak_post", "quark:birch_post", "quark:spruce_post", "quark:acacia_post", "quark:dark_oak_post", "quark:jungle_post", "quark:warped_post", "quark:crimson_post"]
 
 	[blocks.sack]
 		#additional sack slots divided by 2. Number of slots will be 5 + additional_slots*2
@@ -85,6 +83,10 @@
 		#jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
+
+	[blocks.sign_post]
+		#additional blocks besides fences that can accept a sign post
+		whitelist = ["quark:oak_post", "quark:birch_post", "quark:spruce_post", "quark:acacia_post", "quark:dark_oak_post", "quark:jungle_post", "quark:warped_post", "quark:crimson_post"]
 
 #Configure spawning conditions
 [spawns]

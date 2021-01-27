@@ -1,0 +1,70 @@
+{
+  "undergarden:undergarden/root": {
+    "criteria": {
+      "tick": "2021-01-25 18:40:19 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "game_start": "2021-01-25 18:40:19 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/capturing": {
+    "criteria": {
+      "egg": "2021-01-25 18:41:15 +0100"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/the_acknowledgment": {
+    "criteria": {
+      "has_iron_ingot": "2021-01-25 18:40:18 +0100"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2021-01-25 18:40:18 +0100"
+    },
+    "done": true
+  },
+  "restrictedportals:root": {
+    "criteria": {
+      "root": "2021-01-25 18:40:18 +0100"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/cursed_ring": {
+    "criteria": {
+      "has_items": "2021-01-25 18:40:18 +0100"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/enigmatic_amulet": {
+    "criteria": {
+      "has_items": "2021-01-25 18:40:18 +0100"
+    },
+    "done": true
+  },
+  "mysticalworld:root": {
+    "criteria": {
+      "auto": "2021-01-25 18:40:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_tundra": "2021-01-25 18:41:02 +0100",
+      "minecraft:beach": "2021-01-25 18:40:57 +0100"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/root": {
+    "criteria": {
+      "flower": "2021-01-25 18:40:18 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 2584
+}
